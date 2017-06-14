@@ -1,0 +1,33 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #fff;
+}
+
+table {
+	background-color: #6391a7;
+}
+
+table th {
+	color: #fff;
+	border-bottom: solid 2px #fff;
+}
+
+table caption {
+	text-align: left;
+	border-bottom: solid 2px #000;
+}
+
+pre{
+	border: solid 1px #000;
+    width: 25em;
+    padding: 1em 2.5em;
+}
+
+.showTables {
+	display: inline;
+}
+
+.hideTables {
+	display: none;
+}
+

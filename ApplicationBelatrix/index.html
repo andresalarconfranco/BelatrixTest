@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Belatrix - Test</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+	<body>
+		<section>
+			<input id="fileInput" type="file" size="50" onchange="processFiles(this.files)" class="button">
+		</section>
+		<section id="original" class="hideTables">
+			<pre id="fileOutput"></pre>
+		</section>
+		<section id="tables" class="hideTables">
+			<table id="Departamentos">
+				<caption>Departamento</caption>
+				<th>Código</th>
+				<th>Nombre</th>
+				<th>Código Padre</th>
+				<th>Descripción Padre</th>
+			</table>
+			<br>
+			<table id="Provincias">
+				<caption>Provincia</caption>
+				<th>Código</th>
+				<th>Nombre</th>
+				<th>Código Padre</th>
+				<th>Descripción Padre</th>
+			</table>
+			<br>
+			<table id="Distritos">
+				<caption>Distrito</caption>
+				<th>Código</th>
+				<th>Nombre</th>
+				<th>Código Padre</th>
+				<th>Descripción Padre</th>				
+			</table>
+		</section>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
